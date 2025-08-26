@@ -48,7 +48,6 @@ export default function Calculator(){
         <p id="expression">{expression || ""}</p>
         <div className="calculator">
 
-            
             < Button symbol="0" addSymbol={addToExpression}/>
             < Button symbol="1" addSymbol={addToExpression}/>
             < Button symbol="2" addSymbol={addToExpression}/>
